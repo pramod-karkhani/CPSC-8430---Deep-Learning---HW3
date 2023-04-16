@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
-train_data_path = 'Spoken-SQuAD-master/spoken_train-v1.1.json'
-test_data_path = 'Spoken-SQuAD-master/spoken_test-v1.1.json'
+train_data_path = 'spoken_train-v1.1.json'
+test_data_path = 'spoken_test-v1.1.json'
 fig_save_path = 'figs'
 
 def get_data(path): 
